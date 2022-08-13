@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Areas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.Comands {
+  padding: 14px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #ffffff00;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid #ffffffbb;
+  transition: .05s;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.main div{
+  margin: 4px 0;
+}
+
+.Areas{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.Registro {
+  font-size: 16px;
+  display: flex;
+  left: 0px;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 12px;
+}
+
+input{
+  width: 150px;
+  height: 40px;
+  width: 150px;
+  height: 40px;
+  background-color: #ffffff00;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 10px;
+  text-align: center;
+}
+
+#fill{
+  margin-top: 18px;
+}
+
+#reload{
+  width: 40px;
+  position: absolute;
+  left: 0;
+}
